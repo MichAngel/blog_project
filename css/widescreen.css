@@ -1,0 +1,26 @@
+@media (min-width: 1001px) {
+  /* Primary Content Styling */
+  #intro {
+    display: grid;
+    grid-template-areas:
+      "hero hero hero hero"
+      "hd hd hd hd"
+      "h1l h1l h1r h1r"
+      "pbl h1l pbr pbr";
+    grid-gap: 1rem;
+    justify-items: center;
+  }
+
+  .post-card {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "auth auth auth"
+      "auth-img blog-head blog-head"
+      "auth-img blog-text blog-text";
+    width: 100%;
+    border-radius: 1rem;
+  }
+}

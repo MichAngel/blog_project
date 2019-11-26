@@ -1,0 +1,26 @@
+@media (min-width: 600px) and (max-width: 1000px) {
+  /* Primary Content Styling */
+  #intro {
+    display: grid;
+    grid-template-areas:
+      "hero hero"
+      "hd hd"
+      "h1l h1r"
+      "pbl pbr";
+    grid-gap: 1rem;
+    justify-items: center;
+  }
+
+  /* Blog Post Main Styling */
+
+  .post-card {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "auth auth"
+      "auth-img blog-head"
+      "auth-img blog-text";
+  }
+}
