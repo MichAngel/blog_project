@@ -142,6 +142,80 @@ a:hover i {
   grid-area: blog-text;
 }
 
+/* Blog Post Layout */
+#blog-post {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "hero hero hero"
+    "h1t h1t h1t"
+    "p1t p1t p1t"
+    "h2b h2b h2b"
+    "p1b p1b p1b";
+}
+
+.hero-img {
+  grid-area: hero;
+}
+
+.blog-head {
+  grid-area: h1t;
+}
+
+.blog-content-text {
+  grid-area: p1t;
+}
+
+.blog-head-second {
+  grid-area: h2b;
+}
+
+.blog-content-text-2 {
+  grid-area: p1b;
+}
+
+#author-bio {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* Author Bio Layout */
+#author-bio {
+  margin: 2rem 0 2rem 0;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "ava title"
+    "ava company"
+    "ava bio";
+}
+
+.avatar {
+  grid-area: ava;
+  height: 10vh;
+}
+
+.author-title {
+  grid-area: title;
+  height: 3vh;
+}
+
+.author-company {
+  grid-area: company;
+  height: 3vh;
+}
+
+.author-bio {
+  grid-area: bio;
+  height: 3vh;
+  margin-bottom: 1rem;
+}
+
 /* Cotact Us Page Styling */
 #contact {
   display: grid;
