@@ -54,6 +54,15 @@ a:hover i {
   height: 2rem;
   width: 100%;
   border-bottom: 1px dotted black;
+  background: #fff39a;
+}
+
+.nav-item {
+  background: #fff39a;
+}
+
+.nav-item a {
+  background: #fff39a;
 }
 
 /* Primary Content Styling */
@@ -73,7 +82,8 @@ a:hover i {
 .hero-img {
   grid-area: hero;
   height: 50vh;
-  border-radius: 10rem;
+  border-radius: 15rem;
+  background: #fffdd0;
 }
 
 .intro-h1 {
@@ -257,4 +267,13 @@ a:hover i {
   width: 100%;
   position: bottom;
   border-top: 1px dotted black;
+  background: #fff39a;
+}
+
+.footer-item {
+  background: #fff39a;
+}
+
+.footer-item i {
+  background: #fff39a;
 }
