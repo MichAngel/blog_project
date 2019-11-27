@@ -1,0 +1,25 @@
+/* Utility Classes */
+/* Padding */
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.25rem;
+}
+.p-3 {
+  padding: 1.5rem;
+}
+/* Margin */
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.25rem;
+}
+.m-3 {
+  margin: 1.5rem;
+}
+
+.blue-text {
+  color: #b0e0e6;
+}
